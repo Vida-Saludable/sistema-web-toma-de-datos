@@ -29146,7 +29146,7 @@ WL:function WL(a,b,c){this.c=a
 this.e=b
 this.a=c},
 aw0:function aw0(a){this.a=a},
-b9n(){var s=A.b7V("http://145.223.27.25:8000/",B.q9,B.q9,new A.afg()),r=new A.afl($,new A.TQ(A.b([B.Gu],t.OB)),$,new A.ajx(51200),!1)
+b9n(){var s=A.b7V("https://api.vidasaludable.cloud/",B.q9,B.q9,new A.afg()),r=new A.afl($,new A.TQ(A.b([B.Gu],t.OB)),$,new A.ajx(51200),!1)
 r.a23$=s
 r.a25$=new A.abT(A.aN(t.m))
 s=new A.aff(r)
@@ -104327,7 +104327,7 @@ if(a1!=null&&a1.length!==0)J.de(n,"usuario",a1)
 if(a!=null&&a.length!==0&&a!=="all")J.de(n,"proyecto",a)
 if(c!=null&&B.c.gbm(c))J.de(n,"fecha_inicial",c)
 if(d!=null&&B.c.gbm(d))J.de(n,"fecha_final",d)
-m=A.h2("http://145.223.27.25:8000/reports/"+A.ba4(a0),0,null).FX(0,n)
+m=A.h2("https://api.vidasaludable.cloud/reports/"+A.ba4(a0),0,null).FX(0,n)
 s=7
 return A.x(A.bjP(m),$async$DS)
 case 7:l=a3
@@ -104756,7 +104756,7 @@ q.yZ("Error","Error al limpiar filtros: "+A.e(s))}},
 Nf(a,b,c,d){return this.aB3(a,b,c,d)},
 aB3(a,b,c,d){var s=0,r=A.t(t.H),q,p,o
 var $async$Nf=A.o(function(e,f){if(e===1)return A.p(f,r)
-while(true)switch(s){case 0:p=A.h2("http://145.223.27.25:8000/reports/general/exportar/",0,null)
+while(true)switch(s){case 0:p=A.h2("https://api.vidasaludable.cloud/reports/general/exportar/",0,null)
 o=A.w(t.N,t.z)
 if(c.length!==0)o.n(0,"nombre",c)
 if(d!=null&&d!=="all")o.n(0,"proyecto",d)
@@ -107949,7 +107949,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/aires/?"
+k="https://api.vidasaludable.cloud/habits/aires/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
@@ -109128,7 +109128,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/ejercicios/?"
+k="https://api.vidasaludable.cloud/habits/ejercicios/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
@@ -109199,7 +109199,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/alimentaciones/?"
+k="https://api.vidasaludable.cloud/habits/alimentaciones/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
@@ -109270,7 +109270,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/esperanzas/?"
+k="https://api.vidasaludable.cloud/habits/esperanzas/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
@@ -109330,13 +109330,13 @@ A.Uu.prototype={
 F5(a,b){return this.aF_(a,b)},
 aF_(a,b){var s=0,r=A.t(t.B),q,p=this,o,n
 var $async$F5=A.o(function(c,d){if(c===1)return A.p(d,r)
-while(true)switch(s){case 0:A.V("http://145.223.27.25:8000/login/")
+while(true)switch(s){case 0:A.V("https://api.vidasaludable.cloud/login/")
 o=t.N
 n=A.K(["correo",a,"password",b],o,o)
 o=A.K(["Content-Type","application/json"],o,o)
 if(p.db)A.ac("Can not emit events to disposed clients")
 s=3
-return A.x(p.ga2Z().Fu("http://145.223.27.25:8000/login/",n,null,null,o,null,null,t.z),$async$F5)
+return A.x(p.ga2Z().Fu("https://api.vidasaludable.cloud/login/",n,null,null,o,null,null,t.z),$async$F5)
 case 3:o=d.r
 if(o==null){A.aS($.a1(),"Error","No se pudo ejecutar la ejecution",null,null,null,B.r,null,null)
 q=new A.ah(null,null,null,null,null,null)
@@ -109766,7 +109766,7 @@ if(b1!=null&&b1.length!==0)J.de(k,"proyecto",b1)
 if(a8!=null&&a8.length!==0)J.de(k,"fecha_inicial",a8)
 if(a7!=null&&a7.length!==0)J.de(k,"fecha_final",a7)
 J.de(k,"page",B.h.j(b0))
-j=A.h2("http://145.223.27.25:8000/reports/registros-diarios/?",0,null).FX(0,k)
+j=A.h2("https://api.vidasaludable.cloud/reports/registros-diarios/?",0,null).FX(0,k)
 A.V("Url: "+A.e(j))
 if(m!=null){a=J.y(m,"access")
 a1=a==null?"":a}else a1=""
@@ -109830,7 +109830,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/sleeps/?"
+k="https://api.vidasaludable.cloud/habits/sleeps/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
@@ -109891,7 +109891,7 @@ jH(a){var s=0,r=A.t(t.B),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e
 var $async$jH=A.o(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.x(n.h1(0,"http://145.223.27.25:8000/users/roles/",t.z),$async$jH)
+return A.x(n.h1(0,"https://api.vidasaludable.cloud/users/roles/",t.z),$async$jH)
 case 7:m=c
 A.V(m.c)
 if(!new A.ln(m.c).mH(200,299)){A.V("Error de conexi\xf3n: "+m.d)
@@ -110050,7 +110050,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/soles/?"
+k="https://api.vidasaludable.cloud/habits/soles/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
@@ -110283,7 +110283,7 @@ m=J.y(c.cG$,"User")
 if(m!=null){c=J.y(m,"role")
 a=c==null?"":c}else a=""
 l=a
-k="http://145.223.27.25:8000/habits/aguas/?"
+k="https://api.vidasaludable.cloud/habits/aguas/?"
 k=J.dQ(k,"page="+a7)
 if(a6!=null&&a6.length!==0){c=k
 b=J.f9(k,"?")?"":"&"
